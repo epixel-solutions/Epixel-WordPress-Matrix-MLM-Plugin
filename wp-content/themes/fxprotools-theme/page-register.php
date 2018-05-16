@@ -1,0 +1,1 @@
+<?php header("Location: " . site_url('checkout/?add-to-cart=' . $_GET['pid']) ); ?>

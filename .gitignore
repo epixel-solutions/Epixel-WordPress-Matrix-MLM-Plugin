@@ -1,0 +1,23 @@
+# Exclude these files from the git repo
+wp-content/backup/*
+wp-content/cache/*
+wp-content/upgrade/*
+wp-content/uploads/*
+wp-content/debug.log
+node_modules/
+/vendor/
+sitemap.*
+wp-config.php
+phplog
+
+# Hidden system files
+*.DS_Store
+*[Tt]humbs.db
+*.Trashes
+
+.htaccess
+
+/wp-content/themes/fxprotools-theme/assets/js/theme/theme.js
+/wp-content/themes/fxprotools-theme/assets/js/theme/theme.js.map
+/wp-content/themes/fxprotools-theme/assets/css/theme/theme.css
+wp-content/themes/fxprotools-theme/prepros-6.config

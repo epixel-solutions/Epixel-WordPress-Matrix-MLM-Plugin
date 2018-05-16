@@ -1,0 +1,748 @@
+// ------
+// Common
+// ------
+
+// Buttons
+.btn-lg-w-text {
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    span {
+        font-size: 12px;
+        display: block;
+    }
+}
+
+// Label & Text
+.text-white {
+    color: $white;
+}
+.text-red {
+    color: $red;
+}
+.text-green {
+    color: $green;
+}
+.text-blue {
+	color: $blue;
+}
+.label-green {
+    background-color: $green;
+    color: $white;
+    padding: 4px 10px;
+}
+.label-red {
+    background-color: $red;
+    color: $white;
+    padding: 4px 10px;
+}
+
+// Radio Button
+.fx-radio-group {
+	input[type="radio"] {
+		display: none;
+		+ .fx-radio {
+			border: 1px solid #DDD;
+			height: 25px;
+			width: 25px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+			border-radius: 50%;
+			position: relative;
+			overflow: hidden;
+			transition: 0.2s all;
+			background-color: $white;
+			&:before {
+				transition: 0.2s all;
+				content: "";
+				background: $white;
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				text-align: center;
+				height: 20px;
+				width: 20px;
+				margin: auto;
+				border-radius: 50%;
+				height: 1px;
+				width: 1px;
+			}
+		}
+		&:checked + .fx-radio {
+			border-color: $green;
+			&:before {
+				background: $green;
+				height: 17px;
+				width: 17px;
+			}
+		}
+	}
+	.fx-text {
+		font-size: 15px;
+		font-weight: bold;
+	}
+}
+
+// Wrapper
+.fx-wrapper {
+	position: relative;
+	height: auto;
+	&.fx-login {
+		padding-bottom: 0;
+		height: 100%;
+	}
+}
+
+// Main Header Title
+.fx-header-title {
+	text-align: center;
+	margin: 15px 0 40px 0;
+	h1, h2 {
+		font-size: 39px;
+		margin-top: 0;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+  p {
+    font-size: 18px;
+  }
+}
+
+// Mid Header Title
+.fx-mid-header {
+	position: relative;
+	text-align: center;
+	padding: 35px 0;
+	h2 {
+		font-size: 20px;
+		margin-top: 0;
+		font-weight: bold;
+	}
+}
+
+// Separator
+.fx-separator {
+	border-top: 1px solid #DDD;
+	margin: 15px 0;
+}
+
+// Video Container
+.fx-video-container {
+	margin-bottom: 15px;
+}
+
+//Course Content
+.fx-course-outline{
+	.content{
+		font-size: 16px;
+
+		h1{
+			font-size: 2rem;
+			margin: 0 0 1.2rem;
+		}
+
+		img{
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+// Board
+.fx-board {
+	position: relative;
+	border: 1px solid #DDD;
+	background-color: $white;
+	.fx-board-header {
+		padding: 15px;
+		.title, .sub {
+			display: block;
+		}
+		.title {
+			font-weight: bold;
+			font-size: 20px;
+		}
+		.sub {
+			font-size: 14px;
+			font-weight: 300;
+		}
+		&.w-text {
+			position: relative;
+			span {
+				margin-bottom: 5px;
+			}
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+	// With Checklist
+	&.checklist {
+		padding: 0;
+		margin: 0;
+		li {
+			border-bottom: 1px solid #DDD;
+			padding: 20px;
+			&:first-child { border-top: 1px solid #DDD; }
+			&:last-child { border-bottom: none; }
+			.fx-checkbox {
+				border: 1px solid #DDD;
+				height: 25px;
+				width: 25px;
+				display: inline-block;
+				vertical-align: middle;
+				margin-right: 5px;
+				border-radius: 50%;
+				position: relative;
+				overflow: hidden;
+				&.checked {
+					border: none;
+					&:before {
+						content: "\f00c";
+						color: #FFF;
+						background: #03ae78;
+						font-family: FontAwesome;
+						position: absolute;
+						top: 0;
+						bottom: 0;
+						left: 0;
+						right: 0;
+						text-align: center;
+						padding-top: 2px;
+					}
+				}
+			}
+			@extend .fx-radio-group;
+		}
+	}
+	// List Only
+	.fx-board-list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		// w/ Radio box
+	}
+	// Board Content
+	.fx-board-content {
+		padding: 15px 35px 30px 35px;
+		ol {
+			margin: 0;
+			li {
+				margin-bottom: 15px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+	// Page - Access Products
+	&.access-products {
+		padding-bottom: 10px;
+		.fx-board-title {
+			text-align: center;
+			background-color: $red;
+			padding: 20px 0;
+			color: $white;
+			font-size: 18px;
+		}
+		.fx-board-content {
+			padding: 15px 35px 10px 35px;
+			.list-status {
+				list-style: none;
+				padding: 0;
+				border: 1px solid #DDD;
+				margin: 15px 0 5px;
+				li {
+					border-bottom: 1px solid #DDD;
+					padding: 5px 10px;
+					font-size: 14px;
+					label {
+						font-weight: normal;
+					}
+					&:last-child {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+		p.small {
+			font-size: 12px;
+		}
+	}
+}
+
+// Tabs - Full
+.fx-tabs {
+	position: relative;
+	width: 100%;
+	border-bottom: none;
+	margin-bottom: 30px;
+	li {
+		width: 50%;
+		text-align: center;
+		background-color: $white;
+		a {
+			border: 1px solid #DDD;
+			border-radius: 0;
+			color: $grey;
+		}
+		&.active a {
+			border-bottom: 1px solid #DDD;
+			background: #de1515;
+			color: $white;
+			&:focus, &:hover, &:active {
+				border-bottom: 1px solid #DDD;
+				color: $white;
+			}
+		}
+	}
+}
+
+// Tabs - Bordered
+.fx-tabs-bordered {
+	position: relative;
+	li {
+		text-align: center;
+		background-color: $white;
+		a {
+			border: 1px solid #DDD;
+			border-radius: 0;
+			display: block;
+			color: $black;
+		}
+		&.active a {
+			border-bottom: 1px solid #DDD;
+			background: #de1515;
+			color: $white;
+			&:focus, &:hover, &:active {
+				border-bottom: 1px solid #DDD;
+				color: $white;
+			}
+		}
+	}
+	.tab-content {
+		border-left: 1px solid #DDD;
+		border-bottom: 1px solid #DDD;
+		border-right: 1px solid #DDD;
+		padding: 20px;
+		background-color: $white;
+	}
+}
+
+// Tabs - Vertical
+.fx-tabs-vertical {
+	position: relative;
+	.nav-tabs {
+		float: left;
+		border-bottom: 0;
+		li {
+			float: none;
+			margin: 0;
+			background-color: $white;
+			&:first-child a { border-top: 1px solid #DDD!important; }
+			a {
+				margin-right: 0;
+				border-bottom: 1px solid #DDD!important;
+				border-left: 1px solid #DDD!important;
+				border-radius: 0;
+				color: $black;
+			}
+			&.active a {
+				background-color: #de1515;
+				color: #FFF;
+			}
+		}
+	}
+	.nav-tabs>li.active>a,
+	.nav-tabs>li.active>a:hover,
+	.nav-tabs>li.active>a:focus {
+		border:0;
+	}
+	.tab-content {
+		margin-left: 45px;
+		.tab-pane {
+			display: none;
+			background-color: #FFF;
+			padding: 20px;
+			overflow-y: auto;
+			border-top: 1px solid #DDD;
+			border-right: 1px solid #DDD;
+			border-bottom: 1px solid #DDD;
+			border-left: 1px solid #DDD;
+		}
+		.active { display: block; }
+	}
+}
+
+// List - Training
+.fx-list-training {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		border: 1px solid #DDD;
+		padding: 30px 20px;
+		position: relative;
+		margin-bottom: 10px;
+		&:first-child { border-top: 1px solid #DDD; }
+		&:before {
+			content: ' ';
+			height: 5px;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-color: $red;
+		}
+		span {
+			font-weight: bold;
+			font-size: 17px;
+		}
+		.action {
+			display: block;
+			width: 150px;
+			padding: 9px;
+			text-align: center;
+			position: absolute;
+			right: 20px;
+			top: 0;
+			bottom: 0;
+			margin: auto;
+			height: 40px;
+		}
+	}
+}
+
+// List - Courses
+.fx-list-courses {
+	position: relative;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	.list-item {
+		position: relative;
+		margin-bottom: 15px;
+		&:last-child { margin-bottom: 0; }
+		.left {
+			width: 12%;
+			float: left;
+			padding-right: 10px;
+			max-width: 136px;
+			.box {
+				border: 1px solid #DDD;
+				position: relative;
+				height: 110px;
+       			background-color: $white;
+				.sash {
+					position: absolute;
+					background: #5cb85c;
+					color: #FFF;
+					text-align: center;
+					padding: 4px 20px;
+					display: inline-block;
+					font-size: 11px;
+					top: 5px;
+					left: -10px;
+				}
+				.number {
+					display: block;
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					text-align: center;
+					font-size: 30px;
+					font-weight: bold;
+					height: 35px;
+					width: 35px;
+					margin: auto;
+				}
+			}
+		}
+		.right {
+			position: relative;
+			width: 88%;
+			float: left;
+			border: 1px solid #DDD;
+			padding: 25px 25px 15px 25px;
+      		background-color: $white;
+			.title {
+				font-weight: 700;
+				display: block;
+				margin-bottom: 15px;
+				font-size: 20px;
+				border-bottom: 1px solid #f0f0f0;
+				padding-bottom: 15px;
+			}
+			.summary {
+				width: 80%;
+			}
+			.progress {
+				border-radius: 0;
+				.progress-bar {
+					box-shadow: none;
+				}
+			}
+		}
+	}
+}
+
+// List - Contacts
+.fx-list-contacts {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		border-top: 1px solid #DDD;
+		border-left: 1px solid #DDD;
+		border-right: 1px solid #DDD;
+		padding: 10px;
+		background-color: $white;
+		&:nth-child(2n) {
+			background-color: #FCFCFC;
+		}
+		&:last-child {
+			border-bottom: 1px solid #DDD;
+		}
+		.media-body {
+			position: relative;
+		}
+		.info {
+			float: left;
+			position: relative;
+			vertical-align: middle;
+		}
+		.actions {
+			height: 30px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+	}
+}
+
+// Table - Lessons
+.fx-table-lessons {
+	position: relative;
+	th {
+		background-color: $red;
+		color: $white;
+		&:first-child {
+			text-align: center;
+		}
+	}
+	.number {
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.status {
+		border: 1px solid #DDD;
+		padding: 4px 0;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+	}
+}
+
+// Package Item
+.fx-package-item {
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+	border: 3px solid #DDD;
+	border: 3px solid #DDD;
+	position: relative;
+	&.active {
+		border-color: $green;
+		.sash {
+			display: block;
+		}
+	}
+	.panel-body {
+		padding: 25px 15px 15px 15px;
+		.heading {
+			border-bottom: 1px solid #DDD;
+			text-align: center;
+			padding-bottom: 15px;
+		}
+	}
+	.sash {
+		display: none;
+		background: $green;
+		color: $white;
+		text-align: center;
+		padding: 6px 10px;
+		width: 200px;
+		position: absolute;
+		top: -20px;
+		right: 0;
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+
+// Red Banner
+.fx-red-banner {
+	background-color: $red;
+	text-align: center;
+	padding: 80px 0;
+	h2, p {
+		color: $white;
+	}
+}
+
+// Red Banner Icons
+.fx-red-banner-icons {
+	background: $red;
+	padding: 25px 0;
+	.item {
+		position: relative;
+		img {
+			float: left;
+			margin-right: 20px;
+			vertical-align: top;
+		}
+		span {
+			color: $yellow;
+			text-transform: uppercase;
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		p {
+			color: $white;
+			margin-bottom: 0;
+		}
+	}
+}
+
+// Red Note
+.fx-red-note {
+	background: $red;
+	padding: 12px 0;
+	text-align: center;
+	p {
+		color: $white;
+		margin-bottom: 0;
+		font-size: 16px;
+	}
+}
+
+// Slide Toggle - Checkbox Transformation
+.fx-slide-toggle {
+	display: none;
+	// add default box-sizing for this scope
+	&, &:after, &:before, & *, & *:after, & *:before, & + .fx-slide-toggle-btn {
+		box-sizing: border-box;
+		&::selection {
+			background: none;
+		}
+	}
+	+ .fx-slide-toggle-btn {
+		outline: 0;
+		display: block;
+		width: 50px;
+		height: 25px;
+		position: relative;
+		cursor: pointer;
+    	user-select: none;
+		&:after,
+    	&:before {
+			position: relative;
+			display: block;
+			content: "";
+			width: 50%;
+			height: 100%;
+		}
+		&:after {
+			left: 0;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	&:checked + .fx-slide-toggle-btn:after {
+		left: 50%;
+	}
+	+ .fx-slide-toggle-btn {
+		background: #f0f0f0;
+		border-radius: 2em;
+		padding: 2px;
+		transition: all .4s ease;
+		&:after {
+			border-radius: 50%;
+			background: #fff;
+			transition: all .2s ease;
+		}
+	}
+	&:checked + .fx-slide-toggle-btn {
+		background: #5cb85c;
+	}
+}
+
+// Loader - Spinner
+.spinner {
+	margin: 100px auto;
+	width: 40px;
+	height: 20px;
+	text-align: center;
+	font-size: 10px;
+	> div {
+		background-color: #333;
+		height: 100%;
+		width: 6px;
+		display: inline-block;
+		-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+		animation: sk-stretchdelay 1.2s infinite ease-in-out;
+	}
+}
+
+.spinner .rect2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+	0%, 40%, 100% {
+		-webkit-transform: scaleY(0.4)
+	}
+	20% {
+		-webkit-transform: scaleY(1.0)
+	}
+}
+
+@keyframes sk-stretchdelay {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

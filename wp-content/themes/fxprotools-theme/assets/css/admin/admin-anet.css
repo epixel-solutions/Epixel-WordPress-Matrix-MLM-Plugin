@@ -1,0 +1,189 @@
+/* Styles for Lead Management Page */
+body {
+	font-size: 12px!important;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+a:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Change Boostrap Styles */
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+.modal {
+	z-index: 9999;
+}
+.modal-open .modal {
+	display: flex!important;
+	justify-content: center;
+	align-items: center;
+}
+.modal-backdrop {
+	z-index: 9998;
+}
+.modal-content {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+.tab-pane {
+	padding: 25px;
+	border-top: 1px solid #EEE;
+	border-right: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	border-left: 1px solid #EEE;
+}
+.panel {
+	border-radius: 0;
+}
+.nav-tabs > li > a {
+	border-radius: 0;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+	padding: 10px;
+}
+.input-group .form-control {
+	border-radius: 0;
+}
+
+/* Override DataTable Styles */
+div.dataTables_wrapper div.dataTables_length select {
+	margin-right: 5px;
+}
+table.dataTable {
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+}
+#table-lead-projects,
+#table-lead-newsletter {
+	width: 100%!important;
+	margin: 0 0 25px 0!important!important;
+	border: 1px solid #DDD!important;
+}
+#table-lead-projects th:last-child,
+#table-lead-projects tr td:last-child {
+	text-align: center;
+}
+
+/* Custom Styles */
+.line-separator {
+	display: block;
+	border-top: 1px dashed #c6c6c6;
+	margin: 20px 0;
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	color: #2980b9;
+	border-top-color: #2980b9;
+	border-top-width: 2px;
+}
+.nav-tabs > li > a {
+	color: #333;
+	border: 2px solid transparent;
+	background: #EEE;
+}
+.nav-tabs>li>a:hover {
+	border-color: transparent;
+}
+
+/* Modal */
+.modal-body {
+	padding-bottom: 20px;
+}
+.modal-header, .modal-body-content, .modal-footer {
+	/*display: none;*/
+}
+.modal-body {
+	overflow-y: auto;
+}
+.modal-body-content {
+	display: none!important;
+}
+.modal-body-content.active {
+	display: block!important;
+}
+.modal-body-content ul {
+	margin: 0;
+}
+.modal-body-content ul li {
+	margin-bottom: 10px;
+}
+.modal-body-content ul li:last-child, .modal-body-content p {
+	margin: 0;
+}
+.modal-body-content label {
+	display: block;
+}
+.modal-body-content label, .modal-body-content p, .modal-body-content ul li {
+	font-size: 12px;
+}
+.modal-body-content .tab-content {
+	margin-top: -11px;
+}
+.modal-loading {
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #FFF;
+	z-index: 1;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.data-inquiry {
+	display: none;
+}
+.data-inquiry.active{
+	display: block;
+}
+
+span.rating {
+	color: #8e44ad;
+	font-weight: bold;
+}
+
+/* Datatable */
+.dt-table {
+	width: 100%!important;
+}
+
+@media (min-width: 768px) {
+	.modal-xl {
+		width: 90%;
+		max-width:1200px;
+	}
+}

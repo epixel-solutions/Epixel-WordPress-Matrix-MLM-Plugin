@@ -1,0 +1,222 @@
+# <!=Copyright (C) 2014 Rilwis
+# This file is distributed under the GPL2+.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Meta Box Builder 2.0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/meta-box\n"
+"POT-Creation-Date: 2016-06-06 11:42+0700\n"
+"PO-Revision-Date: 2016-06-06 11:42+0700\n"
+"Last-Translator: \n"
+"Language-Team: Meta Box <admin@metabox.io>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-KeywordsList: __;_x;_e;_ex;_n;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lang\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+
+#: inc/buider-gui.php:15
+msgid "Press return or enter to expand"
+msgstr "Bấm Enter để mở rộng"
+
+#: inc/buider-gui.php:40
+msgid "Meta Box Title"
+msgstr "Tiêu đề"
+
+#: inc/buider-gui.php:41
+msgid "Enter name here"
+msgstr "Nhập tên tại đây"
+
+#: inc/buider-gui.php:43 inc/buider-gui.php:297
+msgid "Save Meta Box"
+msgstr "Lưu"
+
+#: inc/buider-gui.php:51
+msgid "Meta Box Fields"
+msgstr "Các trường"
+
+#: inc/buider-gui.php:53
+msgid "Add meta box fields from the column on the left."
+msgstr "Thêm các trường từ cột bên trái"
+
+#: inc/buider-gui.php:56
+msgid ""
+"Drag each item into the order you prefer. Click the arrow on the right of "
+"the item to reveal additional configuration options."
+msgstr ""
+"Kéo từng mục đến vị trí bạn mong muốn. Bấm vào biểu tượng mũi tên bên phải "
+"mỗi mục để xem các lựa chọn tùy chỉnh khác."
+
+#: inc/buider-gui.php:73
+msgid "Edit"
+msgstr "Sửa"
+
+#: inc/buider-gui.php:81
+msgid "Remove"
+msgstr "Xóa"
+
+#: inc/buider-gui.php:83
+msgid "Cancel"
+msgstr "Hủy"
+
+#: inc/buider-gui.php:84
+msgid "Duplicate"
+msgstr "Nhân bản"
+
+#: inc/buider-gui.php:98
+msgid "Meta Box Settings"
+msgstr "Thiết lập"
+
+#: inc/buider-gui.php:100
+msgid "Priority"
+msgstr "Ưu tiên."
+
+#: inc/buider-gui.php:105
+msgid "High"
+msgstr "Cao"
+
+#: inc/buider-gui.php:110
+msgid "Low"
+msgstr "Thấp"
+
+#: inc/buider-gui.php:118
+msgid "Context"
+msgstr "Ngữ cảnh"
+
+#: inc/buider-gui.php:123
+msgid "Normal"
+msgstr "Bình thường"
+
+#: inc/buider-gui.php:128
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: inc/buider-gui.php:133
+msgid "Side"
+msgstr "Bên"
+
+#: inc/buider-gui.php:141
+msgid "Post types"
+msgstr "Loại nội dung"
+
+#: inc/buider-gui.php:149
+msgid "Autosave"
+msgstr "Tự động lưu"
+
+#: inc/buider-gui.php:158
+msgid "Tabs Style"
+msgstr "Kiểu tab"
+
+#: inc/buider-gui.php:169
+msgid "Tabs Wrapper"
+msgstr ""
+
+#: inc/buider-gui.php:294
+msgid "Delete Meta Box"
+msgstr "Xóa"
+
+#: inc/class-meta-box-builder.php:108
+msgid "Meta Box Builder requires Meta Box plugin to work. Please install it."
+msgstr ""
+"Meta Box Builder yêu cầu cần có plugin Meta Box. Vui lòng cài đặt plugin "
+"trước khi sử dung."
+
+#: inc/class-meta-box-builder.php:123 inc/class-meta-box-builder.php:126
+#: inc/class-meta-box-builder.php:129 inc/class-meta-box-builder.php:130
+msgid "Meta Box updated."
+msgstr "Đã cập nhật."
+
+#: inc/class-meta-box-builder.php:124
+msgid "Custom field updated."
+msgstr "Trường tùy biến đã cập nhật."
+
+#: inc/class-meta-box-builder.php:125
+msgid "Custom field deleted."
+msgstr "Trường tùy biến đã xóa."
+
+#: inc/class-meta-box-builder.php:128
+#, php-format
+msgid "Meta Box restored to revision from %s"
+msgstr "Đã được khôi phục từ bản sao lưu %s"
+
+#: inc/class-meta-box-builder.php:131
+msgid "Meta Box submitted."
+msgstr "Đã cập nhật."
+
+#: inc/class-meta-box-builder.php:226 inc/class-meta-box-builder.php:228
+msgid "Meta Boxes"
+msgstr ""
+
+#: inc/class-meta-box-builder.php:227 inc/class-meta-box-builder.php:229
+msgid "Meta Box"
+msgstr ""
+
+#: inc/class-meta-box-builder.php:230
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: inc/class-meta-box-builder.php:231
+msgid "Add New Meta Box"
+msgstr "Thêm mới"
+
+#: inc/class-meta-box-builder.php:232
+msgid "New Meta Meta Box"
+msgstr "Thêm mới"
+
+#: inc/class-meta-box-builder.php:233
+msgid "Edit Meta Box"
+msgstr "Chỉnh sửa"
+
+#: inc/class-meta-box-builder.php:234
+msgid "View Meta Box"
+msgstr "Xem"
+
+#: inc/class-meta-box-builder.php:235
+msgid "All Meta Boxes"
+msgstr "Tất cả"
+
+#: inc/class-meta-box-builder.php:236
+msgid "Search Meta Boxes"
+msgstr "Tìm kiếm"
+
+#: inc/class-meta-box-builder.php:237
+msgid "Parent Meta Boxes:"
+msgstr ""
+
+#: inc/class-meta-box-builder.php:238
+msgid "No Meta Boxes found."
+msgstr "Không tìm thấy kết quả nào."
+
+#: inc/class-meta-box-builder.php:239
+msgid "No Meta Boxes found in Trash."
+msgstr "Không tìm thấy kết quả nào trong thùng rác"
+
+#: inc/class-meta-box-import.php:12
+msgid "Import"
+msgstr "Nhập"
+
+#: inc/class-meta-box-import.php:48
+msgid "Tigh tigh tigh! Meta Boxes has imported successfully!"
+msgstr "Đã nhập dữ liệu thành công!"
+
+#: inc/class-meta-box-import.php:51
+msgid ""
+"Choose a <code>.dat</code> file to upload, then click <strong>Upload file "
+"and import.</strong>"
+msgstr ""
+"Chọn file <code>.dat</code>để upload, sau đó click nút <strong>Tải lên và "
+"nhập</strong>"
+
+#: inc/class-meta-box-import.php:55
+msgid "Choose a file from your computer:"
+msgstr "Chọn 1 file từ máy tính của bạn:"
+
+#: inc/class-meta-box-import.php:60
+msgid "Upload file and import"
+msgstr "Tải lên và nhập"

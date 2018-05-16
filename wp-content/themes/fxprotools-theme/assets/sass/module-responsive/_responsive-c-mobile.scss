@@ -1,0 +1,971 @@
+// ----------------
+// XS - EXTRA SMALL
+// ----------------
+// Breakpoints in specific width
+@media screen and (max-width : 767px) {
+
+	$font-xs-heading: 24px;
+	$font-xs: 13px;
+	$font-xxs: 12px;
+
+	$xs-video-height: 320px;
+	
+	// ------
+	// Global
+	// ------
+	body {
+		font-size: $font-xs;
+	}
+	h1 { font-size: 28px; }
+	h2 { font-size: 24px; }
+	h3 { font-size: 20px; }
+
+	// ----------
+	// Navigation
+	// ----------
+	// Wordpress Admin Bar
+	#wpadminbar {
+	   display: none!important;
+	}
+
+	// Landing/Capture Page Navigation
+	.fx-landing .section-nav .fx-top-nav {
+		&.one {
+			.fx-nav {
+				text-align: center;
+				&.w-border li {
+					margin-top: 0;
+					font-size: 12px;
+				}
+				&.w-flag {
+					text-align: center;
+					margin-top: 10px;
+					li {
+						font-size: $font-xxs;
+						a.btn-flag {
+							padding: 5px 0 5px 0;
+						}
+					}
+				}
+			}
+		}
+		.logo {
+			display: block;
+			text-align: center;
+		}
+		&.two {
+			padding: 20px 0 25px 0;
+			.fx-nav {
+				text-align: center;
+				margin: 15px 0 0;
+				li a {
+					font-size: $font-xxs;
+				}
+			}
+		}
+	}
+	// Main Navigation
+	.fx-navbar-main {
+		position: fixed;
+		z-index: 100;
+		top: 0;
+		left: 0;
+		right: 0;
+		border-bottom: none;
+		.fx-navbar-header {
+			float: left;
+			.navbar-brand {
+				padding: 0;
+				img {
+					width: 160px;
+					height: auto;
+					margin-top: 8px;
+				}
+			}
+		}
+		// Mobile Navigation
+		.xs-toggle-nav {
+			display: block;
+			width: 55px;
+			height: 60px;
+			position: relative;
+			margin-right: -15px;
+			background-color: #922121;
+			cursor: pointer;
+			float: right;
+			@include transform(rotate(0deg));
+			@include transition(.5s ease-in-out);
+			span {
+				display: block;
+				position: absolute;
+				height: 5px;
+				width: 35px;
+				opacity: 1;
+				left: 0;
+				right: 0;
+				margin: auto;
+				background-color: $white;
+				@include transform(rotate(0deg));
+				@include transition(.25s ease-in-out);
+				&:nth-child(1) {
+				 	top: 18px;
+				}
+				&:nth-child(2), &:nth-child(3) {
+					top: 28px;
+				}
+				&:nth-child(4) {
+					top: 38px;
+				}
+			}
+			&.open span {
+				&:nth-child(1) {
+					top: 18px;
+					width: 0%;
+					left: 50%;
+				}
+				&:nth-child(2) {
+					@include transform(rotate(45deg));
+				}
+				&:nth-child(3) {
+					@include transform(rotate(-45deg));
+				}
+				&:nth-child(4) {
+					top: 18px;
+					width: 0%;
+					left: 50%;
+				}
+			}
+		}
+		.xs-nav-side {
+			position: fixed;
+			z-index: 100;
+			top: 62px;
+			bottom: 0;
+			left: -245px;
+			background-color: #403D3D;
+			width: 245px;
+			overflow-y: auto;
+			overflow-x: hidden;
+			@include transition(0.2s ease-in-out);
+			.fx-nav-options {
+				float: none;
+				margin: 0 -15px;
+				li {
+					float: none;
+					margin-right: 0;
+					border-bottom: 1px solid #EEE;
+					a {
+						text-align: left;
+						padding: 20px 15px;
+						line-height: initial;
+						@include transition(0.3s);
+						&:hover, &:focus, &:active {
+							background-color: #bb1414;
+						}
+						img {
+							width: 32px;
+							height: auto;
+							margin-right: 15px;
+							float: left;
+							vertical-align: top;
+							margin-top: -5px;
+						}
+					}
+					// Share/Team Icon
+					&:nth-child(3) a img,
+					&:nth-child(4) a img {
+						margin-top: -10px;
+					}
+				}
+				&.right {
+					li {
+						// width: 50%;
+						&.account {
+							padding-top: 0;
+							a {
+								background-color: transparent;
+								&:hover, &:focus, &:active {
+									background-color: #bb1414;
+								}
+							}
+						}
+						a .icon-inbox {
+							font-size: 30px;
+							float: left;
+							display: block;
+							width: 32px;
+							margin-right: 10px;
+							margin-top: -7px;
+							margin-left: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+	// When navigation is open
+	body.xs-nav-open {
+		overflow: hidden;
+		.xs-nav-side {
+			left: 0;
+		}
+		.fx-wrapper-content::before {
+			content: ' ';
+			position: absolute;
+			height: 100%;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-color: rgba(0, 0, 0, 0.31);
+			z-index: 1;
+		}
+	}
+	// Sub Navigation
+	.fx-navbar-sub {
+		.fx-nav-options {
+			margin: -1px -15px;
+			padding: 0;
+			li.dashboard {
+				display: none;
+			}
+			li {
+				width: 50%;
+				float: left;
+				outline: 1px solid #DDD;
+				padding: 0;
+				a {
+					padding: 10px 10px;
+					font-size: 12px;
+					display: block;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					// .number {
+					// 	display: none;
+					// }
+				}
+				&.current-menu-item a {
+					.number {
+						background-color: #922121;
+					}
+					.text {
+						border-bottom: none;
+						color: #922121;	
+					}
+				}
+			}
+		}
+	}
+	// Footer
+	.fx-footer {
+		padding: 50px 0 30px 0;
+		span {
+			font-size: 12px;
+		}
+		.credit-cards {
+			margin: 15px 0;
+		}
+		.footer-nav li a {
+			font-size: $font-xs;
+		}
+	}
+
+	// ------
+	// Common
+	// ------
+	// If body has admin-bar class - added by wp
+	.admin-bar .fx-wrapper {
+   		padding-top: 16px;
+   	}
+	// Wrapper
+	.fx-wrapper {
+		padding-top: 62px;
+		&.fx-login {
+			padding-top: 0;
+		}
+	}
+	// Buttons
+	.btn-lg-w-text {
+		font-size: 22px;
+	}
+	// Red Note
+	.fx-red-note p {
+		font-size: 14px;
+	}
+	// Package Item
+	.fx-package-item {
+		margin-bottom: 40px;
+	}
+	// Red Banner
+	.fx-red-banner {
+		padding: 50px 0;
+	}
+	// Red Banner Icons
+	.fx-red-banner-icons {
+		padding: 30px 0 25px 0;
+		.item {
+			margin-bottom: 15px;
+			text-align: center;
+			img {
+				float: none;
+				margin: 0 auto 10px auto;
+			}
+		}
+	}
+	// List - Courses
+	.fx-list-courses {
+		.list-item {
+			.left {
+				width: 12%;
+				float: left;
+				padding-right: 5px;
+				max-width: initial;
+				.box {
+					height: 80px;
+					.sash {
+						top: 0;
+						left: 0;
+						width: 100%;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
+					.number {
+						font-size: 20px;
+						top: 20px;
+					}
+				}
+			}
+		}
+	}
+	.xs-fx-course {
+		margin-top: -15px;
+		p {
+			font-size: $font-xs;
+		}
+	}
+	// Table - Lessons
+	.fx-table-lessons {
+		th {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	// ------
+	// Custom
+	// ------
+	// Landing Page
+	.fx-landing {
+		.section-w-panel {
+			.text-lg {
+				font-size: 40px;
+			}
+			.panel .panel-body {
+				padding: 30px;
+			}
+		}
+		.section-two {
+			.intro-note {
+			 	font-size: $font-xs-heading;
+			 	&.lg {
+			 		font-size: 30px;
+			 	}
+			}
+			.video {
+				height: $xs-video-height;
+				margin: 35px auto 30px 0;
+			}
+			.item-info {
+				margin: 0 auto 60px;
+				max-width: 350px;
+				p {
+					font-size: 17px;
+				}
+				&.xs-item-info {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.section-three {
+			padding: 50px 0 30px 0;
+			.panel-steps .list-steps li {
+				height: auto;
+				.counter {
+					height: auto;
+					float: none;
+					margin: 0 auto;
+					.bar {
+						display: none;
+					}
+					.number {
+						width: 40px;
+						height: 40px;
+						font-size: 18px;
+						line-height: 2.1;
+					}
+				}
+				h3 {
+					text-align: center;
+					margin-top: 12px;
+				}
+				p {
+					font-size: $font-xs;
+				}
+			}
+		}
+		.section-four {
+			overflow: hidden;
+			.intro-note {
+			 	font-size: $font-xs-heading;
+			}
+			.list-features {
+				margin: 50px 0 0 50px;
+				li {
+					font-size: 15px;
+				}
+			}
+			.item-stats {
+				margin-bottom: 15px;
+				.count {
+					font-size: 40px;
+				}
+				.count-label {
+					font-size: 15px;
+				}
+			}
+		}
+		.section-five {
+			padding: 50px 0 30px 0;
+			.panel-body {
+				padding: 30px 30px 0 30px;
+			}
+			.header-text p.text-heading {
+				font-size: 20px;
+			}
+			.step-item {
+				padding: 25px 0;
+				h2 {
+					text-align: center;
+					margin-bottom: 0;
+					.label-red {
+						display: inline-block;
+					}
+				}
+				img {
+					margin-bottom: 10px;
+				}
+			}
+		}
+		.section-six {
+			.intro-note {
+			 	font-size: $font-xs-heading;
+			}
+		}
+		.section-seven {
+			.list-checklist {
+				margin-left: 2.14285714em;
+				li {
+					font-size: 15px;
+				}
+			}
+		}
+		.section-nine {
+			padding: 0 0 30px 0;
+			.faq-item {
+				height: auto;
+				&.no-border {
+					border-bottom: 2px solid #DDD;
+				}
+			}
+		}
+		.section-ten {
+			.unlock-item {
+				height: 100px;
+				margin-bottom: 30px;
+				.icon {
+					position: relative;
+					height: 65px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					img {
+						width: 50px;
+					}
+				}
+				span {
+					display: block;
+				}
+			}
+		}
+		.section-eleven {
+			.intro-note {
+				font-size: $font-xs-heading;
+			}
+			.dl-item {
+				height: 100px;
+				margin-bottom: 30px;
+				.icon {
+					position: relative;
+					height: 65px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					img {
+						width: 50px;
+					}
+				}
+				span {
+					display: block;
+				}
+			}
+		}
+		.section-testimonials {
+			padding: 50px 0 30px 0;
+			.header-text p.text-heading,
+			.header-text p.text-heading.sm {
+				font-size: 24px;
+			}
+			.item-stats {
+				margin-bottom: 15px;
+				.count {
+					font-size: 40px;
+				}
+				.count-label {
+					font-size: 15px;
+				}
+				&.xs-item-stats {
+					margin-bottom: 0;
+				}
+			}
+		}
+		// Signals
+		&.signals {
+			.section-three {
+				.header-text {
+					width: 100%;
+					.arrow-left, .arrow-right {
+						display: none;
+					}
+				}
+			}
+			.section-three, .section-four {
+				.content {
+					margin-top: 20px;
+				}
+			}
+			.section-testimonials .intro-note {
+				font-size: $font-xs-heading;
+			}
+			.section-four {
+				padding: 50px 0 0 0;
+			}
+		}
+	}
+	// Login
+	.fx-login {
+		.left, .right {
+			width: 100%;
+			height: auto;
+			position: static;
+			min-height: 350px;
+			.content-wrapper .content {
+				padding: 30px;
+				width: 100%;
+			}
+		}
+	}
+	// Capture Page
+	.fx-capture-page {
+		// Funnel 1
+		&.f1 {
+			.section-one {
+				overflow: hidden;
+				.container {
+					height: auto;
+					padding: 15px 0 0;
+					&:before {
+						display: none;
+					}
+				}
+				.content-wrapper .content {
+					padding: 25px;
+				}
+			}
+			.section-two {
+				padding: 50px 0 30px 0;
+				.item-info {
+					height: auto;
+					margin-bottom: 20px;
+					.image {
+						position: relative;
+						height: auto;
+						display:flex;
+						justify-content:center;
+						align-items:center;
+						img {
+							width: 50px;
+						}
+					}
+					span {
+						display: block;
+					}
+				}
+			}
+		}
+		// Funnel 2
+		&.f2 {
+			.section-one {
+				.intro-note {
+					font-size: $font-xs-heading;
+				}
+				.video {
+					height: $xs-video-height;
+				}
+				.video-disclaimer {
+					margin-bottom: 15px;
+				}
+			}
+		}
+		// Funnel 3
+		&.f3 {
+			padding: 20px 0;
+			.tab-form .nav-tabs li a {
+				label {
+					font-size: 22px;
+				}
+				span {
+					font-size: 12px;
+				}
+			}
+		}
+	}
+	// Dashboard
+	.page-dashboard {
+		.btn-ico-lg {
+			margin-bottom: 15px;
+		}
+		.fx-board .fx-board-header .title {
+			font-size: 16px;
+		}
+		.fx-board.checklist li .fx-text, .fx-radio-group .fx-text {
+			font-size: 13px;
+		}
+		.fx-board.checklist .fx-board-list.w-toggle li .content {
+			font-size: 12px;
+		}
+		.image-lock-overlay{
+			max-width: 382px;
+			width:100%;
+			height: 87%;
+    		margin-top: -7px;
+		}
+	}
+	// My Account
+	.fx-tabs-vertical  {
+		.xs-m-t {
+			margin-top: 30px;
+		}
+		.nav-tabs li a {
+			span {
+				display: none;
+			}
+		}
+		.list-info li {
+			span {
+				font-size: 11px;
+				display: block;
+				width: 100%;
+				margin-bottom: 2px;
+			}
+			input[type="text"] {
+				width: 100%;
+			}
+		}
+	}
+	// Checkout - Woocommerce
+	.woocommerce-checkout .fx-wrapper {
+		padding-top: 15px;
+	}
+	.woocommerce-checkout .checkout-holder .col2-set .col-1,
+	.woocommerce-checkout .checkout-holder .col2-set .col-2 {
+		width: 100%;
+		padding: 0;
+	}
+	.woocommerce-checkout .checkout-holder .checkout-sidebar img {
+		margin: 0 auto;
+		display: block;
+	}
+	.woocommerce-checkout .checkout-holder .panel .col-form-label {
+		padding-left: 0;
+	}
+	.woocommerce-billing-fields .form-group.row {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	
+}
+@media screen and (max-width: 640px) {
+
+}
+@media screen and (max-width: 568px) {
+
+	// ------
+	// Custom
+	// ------
+	.log-out-notice span.label-red {
+		font-size: 15px;
+		padding: 10px;
+		display: block;
+	}
+
+}
+@media screen and (max-width: 520px) {
+
+	// ------
+	// Common
+	// ------
+	.btn-lg-w-text {
+		width: 100%;
+		white-space: initial;
+	}
+
+}
+@media screen and (max-width: 480px) {
+
+	// ------
+	// Common
+	// ------
+	// List - Courses
+	.fx-list-courses {
+		.list-item {
+			.left {
+				width: 100%;
+				float: none;
+				padding-right: 0;
+				max-width: initial;
+				.box {
+					height: 80px;
+					.sash {
+						top: 0;
+						left: 0;
+						width: 100%;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+					}
+					.number {
+						font-size: 20px;
+						top: 20px;
+					}
+				}
+			}
+			.right {
+				width: 100%;
+			}
+		}
+	}	
+}
+@media screen and (max-width: 420px) {
+
+	$xs-video-height: 220px;
+	// ------
+	// Global
+	// ------
+	body {
+		font-size: 13px;
+	}
+	h1 { font-size: 26px; }
+	h2 { font-size: 22px; }
+	h3 { font-size: 18px; }
+	.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+		line-height: initial;
+	}
+	// ------
+	// Common
+	// ------
+	.btn-lg-w-text {
+		font-size: 18px;
+	}
+
+	// ------
+	// Custom
+	// ------
+	// Landing Page
+	.fx-landing .section-w-panel .text-lg {
+		font-size: 35px;
+	}
+	.fx-landing .section-two .intro-note,
+	.fx-landing .section-four .intro-note,
+	.fx-landing .section-six .intro-note {
+		font-size: 22px;
+	}
+	.fx-landing .section-two .video {
+		height: $xs-video-height;
+	}
+	.fx-landing .section-five .step-item h2 .label-red {
+		display: block;
+		margin-bottom: 5px;
+	}
+	// Capture Page
+	.fx-capture-page {
+		// Funnel 2
+		&.f2 .section-one .video {
+			height: $xs-video-height;
+		}
+		// Funnel 3/4
+		&.f3, &.f4 {
+			.tab-form .nav-tabs li {
+				width: 100%;
+				text-align: left;
+				border-bottom: 1px solid #edcd95;
+				padding-bottom: 10px;
+				&:last-child {
+					border-bottom: none;
+				}
+				a label {
+					font-size: 20px;
+					float: left;
+					vertical-align: middle;
+					margin-right: 15px;
+				}
+				a span {
+					line-height: initial;
+					margin-top: 6px;
+				}
+				a br {
+					display: none;
+				}
+			}
+			.tab-form .tab-content .title {
+				font-size: 22px;
+			}
+		}
+	}
+
+}
+@media screen and (max-width: 380px) {
+
+	// ------
+	// Custom
+	// ------
+	.page-dashboard {
+		.btn-ico-lg {
+			&.btn-one {
+				height: auto;
+			}
+			.left {
+				display: none;
+			}
+		}
+	}
+	.image-lock-overlay{
+		max-width: 300px;
+		width:100%;
+		height: 87%;
+		margin-top: -6px;
+	}
+
+
+}
+@media screen and (max-width: 320px) {
+
+}
+// Breakpoint in Width Range
+@media screen and(min-width: 568px) and (max-width: 639px) {
+
+}
+@media screen and (min-width : 480px) and (max-width: 567px) {
+
+}
+@media screen and (min-width : 360px) and (max-width: 479px) {
+
+}
+@media screen and (min-width : 320px) and (max-width: 359px) {
+
+}
+
+// ---------
+// iPhone 6+
+// ---------
+// Portrait
+@media only screen 
+	and (min-device-width: 414px)
+	and (max-device-width: 736px)
+	and (device-height : 736px)
+	and (-webkit-min-device-pixel-ratio: 3)
+	and (-webkit-device-pixel-ratio : 3)
+	and (orientation: portrait) {
+
+}
+// Landscape
+@media only screen 
+	and (min-device-width: 414px)
+	and (max-device-width: 736px)
+	and (-webkit-min-device-pixel-ratio: 3)
+	and (orientation: landscape) {
+
+}
+
+// --------
+// iPhone 6
+// --------
+// Portrait
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px) 
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: portrait) {
+
+}
+// Landscape
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 667px) 
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: landscape) {
+
+}
+
+// -----------
+// iPhone 5/5S
+// -----------
+// Portrait
+@media only screen 
+	and (min-device-width: 320px) 
+	and (max-device-width: 568px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: portrait) {
+
+}
+// Landscape
+@media only screen 
+	and (min-device-width: 320px) 
+	and (max-device-width: 568px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: landscape) {
+
+}
+
+// -----------
+// iPhone 4/4S
+// -----------
+// Portrait
+@media only screen 
+	and (min-device-width: 320px) 
+	and (max-device-width: 480px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: portrait) {
+
+}
+// Landscape
+@media only screen 
+	and (min-device-width: 320px) 
+	and (max-device-width: 480px)
+	and (-webkit-min-device-pixel-ratio: 2)
+	and (orientation: landscape) {
+
+}

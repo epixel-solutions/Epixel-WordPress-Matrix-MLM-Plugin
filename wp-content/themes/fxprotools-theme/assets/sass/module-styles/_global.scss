@@ -1,0 +1,98 @@
+// ------
+// Global
+// ------
+
+*, *:after, *::before {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, body, html {
+    -webkit-font-smoothing: antialiased;
+}
+html.is-loading {
+    overflow: hidden;
+}
+html,
+body {
+    height: 100%;
+}
+html {
+    font-size: 100%;
+}
+body {
+    font-family: $font-lato!important;
+    color: $black;
+    font-size: 14px;
+    background-color: $smokey!important;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+   opacity: 1;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: $black;
+}
+p {
+    line-height: 1.6;
+}
+
+// Wordpress image alignment for content
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+a img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+a img.aligncenter {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// Bootstrap Overriding Styles
+.form-control {
+    @include border-radius(0);
+    height: 40px;
+}
+.btn {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.btn-danger {
+    background-color: $red;
+    border-color: $red;
+    border-bottom: 4px solid #940000;
+    font-weight: bold;
+}
+.btn-success {
+    background-color: $green;
+    border-color: $green;
+    border-bottom: 4px solid #018e61;
+}
+.btn-outline {
+    background-color: transparent;
+    color: $white;
+    border: 2px solid $white;
+    &:focus, &:active, &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}

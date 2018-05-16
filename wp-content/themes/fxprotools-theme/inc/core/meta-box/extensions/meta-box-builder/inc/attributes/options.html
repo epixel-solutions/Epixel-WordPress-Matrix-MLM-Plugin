@@ -1,0 +1,43 @@
+<section class="builder-options description description-wide">
+	
+	<label>Options</label><br>
+	
+	<table class="table" ng-show="active.options.length > 0">
+
+		<thead>
+			<tr>
+				<td>Value</td>
+				<td>
+					<span ng-hide="field.type == 'image_select'">Label</span>
+					<span ng-show="field.type == 'image_select'">Image URL</span>
+				</td>
+				<td>Selected</td>
+				<td></td>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr ng-repeat="option in active.options">
+				
+				<td class="col-xs-5" width="42%">
+					<input ng-keydown="navigate($event, active.id, $index, 'key')" ng-enter="addObject('options')" focus-on="{{active.id}}_key_{{$index}}" type="text" class="form-control input-sm" ng-model="option.key" placeholder="Enter key" ng-change="autoFillValue($index)" />
+				</td>
+				
+				<td class="col-xs-6" width="45%">
+					<input ng-keydown="navigate($event, active.id, $index, 'value')" ng-enter="addObject('options');" focus-on="{{active.id}}_value_{{$index}}" type="text" class="form-control input-sm" ng-model="option.value" placeholder="Enter value" />
+				</td>
+
+				<td>
+					<input type="checkbox" ng-model="option.selected" ng-change="toggleSelect($index);">
+				</td>
+
+				<td class="col-xs-1" width="5%">
+					<button type="button" class="button" ng-click="removeObject('options', $index);"><span class="dashicons dashicons-trash"></span></button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<button type="button" class="button" ng-click="addObject('options');">Add Option</button>
+
+</section>

@@ -1,0 +1,45 @@
+/*!
+ * Theme Name: FXProtools Theme
+ * Theme URI: https://copyprofitsuccess.com/
+ * Description: Custom theme for fxprotools
+ * Version: 1
+ * Author: John Benedict
+ */
+
+// ---------
+// Libraries
+// ---------
+@import 'library/bourbon/_bourbon';
+
+// --------------
+// Main Variables
+// --------------
+$font-lato: 'Lato', sans-serif;
+
+$white: #fff;
+$smokey: #f8f8f8;
+$black: #000;
+$grey: #777;
+$lightgrey: #ddd;
+$yellow: #f5cd2b;
+$red: #de1515;
+$green: #03ae78;
+$blue: #0073AA;
+
+
+// ---------------
+// Module - Styles
+// ---------------
+@import 'module-styles/_helper';     // Helper Classes
+@import 'module-styles/_global';     // Global Styles
+@import 'module-styles/_common';     // Common Styles
+@import 'module-styles/_navigation'; // Navigation Styles
+@import 'module-styles/_custom';     // All custom styles that are not common to other pages
+@import 'module-styles/_email';      // Styles for emails
+
+// -------------------
+// Module - Responsive
+// -------------------
+@import 'module-responsive/_responsive-a-desktop';
+@import 'module-responsive/_responsive-b-tablet';
+@import 'module-responsive/_responsive-c-mobile';

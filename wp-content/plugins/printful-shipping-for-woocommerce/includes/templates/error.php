@@ -1,0 +1,1 @@
+<p class="printful-error"><b>Error:</b> <?php echo wp_kses_post($error); ?></p>

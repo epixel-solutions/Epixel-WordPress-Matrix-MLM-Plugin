@@ -1,0 +1,28 @@
+<section class="builder-datalist">
+	
+	<h4>Datalist</h4>
+	
+	<p class="description description-wide">
+		<label>Datalist ID <br />
+			<input type="text" placeholder="Set ID to begin creating datalist" class="form-control" ng-model="active.datalist.id">
+		</label>
+	</p>
+
+	
+	<div ng-show="field.datalist.id != ''" class="description description-wide">
+		<label>Datalist Items</label> <br />
+		<table class="table" ng-show="active.datalist.options">
+			<tr ng-repeat="item in active.datalist.options track by $index">
+				<td width="95%">
+					<input ng-keydown="navigate($event, active.id, $index, 'datalist')" ng-enter="addDatalistItem();" focus-on="{{active.id}}_datalist_{{$index}}" type="text" class="form-control col-sm-6 input-sm" ng-model="active.datalist.options[$index]" placeholder="Enter value then press enter to add another item" focus="true">
+				</td>
+				<td width="5%">
+					<button type="button" class="button" ng-click="removeDatalistItem($index);"><span class="dashicons dashicons-trash"></span></button>
+				</td>
+			</tr>
+		</table>
+		
+		<button ng-show="active.datalist.id" type="button" class="button" ng-click="addDatalistItem();">Add Datalist Item</button>
+		
+	</div>
+</section>

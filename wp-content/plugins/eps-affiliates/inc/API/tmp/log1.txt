@@ -1,0 +1,1330 @@
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24363
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24364
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24366
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 2
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24367
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24367
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24363
+    [downline_user_id] => 24368
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24368
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24368
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24369
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24369
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24363
+    [downline_user_id] => 24370
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24370
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24370
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24371
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 2
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24371
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 2
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24372
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 4
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24372
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 4
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24373
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 9
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24373
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 9
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24374
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 5
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24374
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 5
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24366
+    [downline_user_id] => 24375
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 4
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24375
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 13
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24375
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 13
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24367
+    [downline_user_id] => 24376
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24363
+    [downline_user_id] => 24376
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24376
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24376
+    [level] => 5
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24364
+    [downline_user_id] => 24377
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24377
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 25
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24377
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 25
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24366
+    [downline_user_id] => 24378
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 6
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24378
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 15
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24378
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 15
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24364
+    [downline_user_id] => 24379
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 9
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24379
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 27
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24379
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 27
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24366
+    [downline_user_id] => 24380
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 5
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24380
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 14
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24380
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 14
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24381
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 8
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24381
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 8
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24374
+    [downline_user_id] => 24382
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24366
+    [downline_user_id] => 24382
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 10
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24382
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 37
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24382
+    [level] => 5
+    [status] => 1
+    [position] => 1
+    [relative_position] => 37
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24363
+    [downline_user_id] => 24383
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 2
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24383
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 2
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24383
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 2
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24384
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 6
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24384
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 6
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24385
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24385
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24363
+    [downline_user_id] => 24386
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 4
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24386
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 4
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24386
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 4
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24367
+    [downline_user_id] => 24387
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24363
+    [downline_user_id] => 24387
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24387
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24387
+    [level] => 5
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24374
+    [downline_user_id] => 24388
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 9
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24366
+    [downline_user_id] => 24388
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 18
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24362
+    [downline_user_id] => 24388
+    [level] => 4
+    [status] => 1
+    [position] => 1
+    [relative_position] => 45
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24388
+    [level] => 5
+    [status] => 1
+    [position] => 1
+    [relative_position] => 45
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24390
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24391
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 24389
+    [downline_user_id] => 24393
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24393
+    [level] => 3
+    [status] => 1
+    [position] => 1
+    [relative_position] => 7
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24395
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 1
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Array
+(
+    [uid] => 162
+    [downline_user_id] => 24396
+    [level] => 2
+    [status] => 1
+    [position] => 1
+    [relative_position] => 3
+    [created] => 1534550400
+    [member_rank] => 0
+    [joined_day] => 18
+    [joined_month] => 08
+    [joined_year] => 2018
+    [joined_week] => 33
+    [joined_date] => 2018/08/18
+)
+
+--------------------------------------------------------------------------

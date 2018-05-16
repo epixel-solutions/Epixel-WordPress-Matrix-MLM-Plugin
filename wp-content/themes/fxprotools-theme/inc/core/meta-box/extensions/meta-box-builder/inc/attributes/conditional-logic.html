@@ -1,0 +1,66 @@
+<hr>
+<section class="builder-conditional-logic">
+	
+	<h4>Conditional Logic</h4>
+	
+	<div class="description description-wide" ng-show="active.logic">
+		
+		<select ng-model="active.logic.visibility">
+			<option value="visible">Visible</option>
+			<option value="hidden">Hidden</option>
+		</select>
+
+		<code>when</code>
+
+		<select ng-model="active.logic.relation">
+			<option value="and">All</option>
+			<option value="or">Any</option>
+		<select>
+		
+		<code>of these conditions match</code>
+		
+		<table class="table" ng-show="active.logic">
+			<tr>
+				<td>Field</td>
+				<td>Is</td>
+				<td>Value</td>
+				<td></td>
+			</tr>
+			<tr ng-repeat="item in active.logic.when track by $index">
+				<td>
+					<input type="text" ng-model="active.logic.when[$index][0]" list="available_fields" placeholder="Select or enter a field...">
+				</td>
+				<td>
+					<select style="width: 80px;" ng-model="active.logic.when[$index][1]">
+						<option value="=">=</option>
+	                    <option value=">">></option>
+	                    <option value="<">&lt;</option>
+	                    <option value=">=">>=</option>
+	                    <option value="<=">&lt;=</option>
+	                    <option value="!=">!=</option>
+	                    <option value="contains">contains</option>
+	                    <option value="not contains">not contains</option>
+	                    <option value="starts with">starts with</option>
+	                    <option value="not starts with">not starts with</option>
+	                    <option value="ends with">ends with</option>
+	                    <option value="not ends with">not ends with</option>
+	                    <option value="between">between</option>
+	                    <option value="not between">not between</option>
+	                    <option value="in">in</option>
+	                    <option value="not in">not in</option>
+	                    <option value="match">match</option>
+	                    <option value="not match">not match</option>
+					</select>
+				</td>
+				<td>
+					<input type="text" ng-model="active.logic.when[$index][2]" placeholder="Enter a value...">
+				</td>
+				<td>
+					<button type="button" class="button" ng-click="removeConditionalLogic($index);"><span class="dashicons dashicons-trash"></span></button>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<button type="button" class="button" ng-click="addConditionalLogic();">Add Conditional Logic</button>
+</section>

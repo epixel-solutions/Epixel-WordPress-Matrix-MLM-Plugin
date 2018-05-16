@@ -1,0 +1,39 @@
+<section class="builder-options description description-wide">
+	<label>Options</label><br>
+	
+	<table class="table" ng-show="active.options.length > 0">
+
+		<thead>
+			<tr>
+				<td>Placeholder</td>
+				<td>Label</td>
+				<td ng-show=" ! active.clone">Default</td>
+				<td></td>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr ng-repeat="option in active.options">
+				
+				<td class="col-xs-3" width="30%">
+					<input ng-keydown="navigate($event, active.id, $index, 'key')" ng-enter="addObject('options')" focus-on="{{active.id}}_key_{{$index}}" type="text" class="form-control input-sm" ng-model="option.key" placeholder="Enter value" />
+				</td>
+
+				<td class="col-xs-4" width="32%">
+					<input ng-keydown="navigate($event, active.id, $index, 'value')" ng-enter="addObject('options')" focus-on="{{active.id}}_value_{{$index}}" type="text" class="form-control input-sm" ng-model="option.value" placeholder="Enter label" />
+				</td>
+				
+				<td ng-show=" ! active.clone" class="col-xs-3" width="30%">
+					<input ng-keydown="navigate($event, active.id, $index, 'default')" ng-enter="addObject('options')" focus-on="{{active.id}}_default_{{$index}}" type="text" ng-model="option.default" placeholder="Enter default value">
+				</td>
+
+				<td class="col-xs-1" width="5%">
+					<button type="button" class="button" ng-click="removeObject('options', $index);"><span class="dashicons dashicons-trash"></span></button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<button type="button" class="button" ng-click="addObject('options');">Add Option</button>
+
+</section>

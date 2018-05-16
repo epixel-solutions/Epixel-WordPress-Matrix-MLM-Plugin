@@ -1,0 +1,168 @@
+/*  ------------------- Main Wrapper -------------------------------------- */
+.wrapper-md {padding: 20px;background-color: #f0f3f4;}
+
+:focus {outline: none;}
+.row {margin-right: 0;margin-left: 0;}
+
+.side-menu {width: 300px;height: 100%;background-color: #f8f8f8;border-right: 1px solid #e7e7e7;}
+.side-menu .navbar {border: none;}
+.side-menu .navbar-header {width: 100%;border-bottom: 1px solid #e7e7e7;}
+.side-menu .navbar-nav .active a {background-color: transparent;margin-right: -1px;border-right: 5px solid #e7e7e7;}
+.side-menu .navbar-nav li {display: block;width: 100%;border-bottom: 1px solid #e7e7e7;}
+.side-menu .navbar-nav li a {padding: 15px;}
+.side-menu .navbar-nav li a .glyphicon {padding-right: 10px;}
+.side-menu #dropdown {border: 0;margin-bottom: 0;border-radius: 0;background-color: transparent;box-shadow: none;}
+.side-menu #dropdown .caret {float: right;margin: 9px 5px 0;}
+.side-menu #dropdown .indicator {float: right;}
+.side-menu #dropdown > a {border-bottom: 1px solid #e7e7e7;}
+.side-menu #dropdown .panel-body {padding: 0;background-color: #f3f3f3;}
+.side-menu #dropdown .panel-body .navbar-nav {  width: 100%;}
+.side-menu #dropdown .panel-body .navbar-nav li {padding-left: 15px;border-bottom: 1px solid #e7e7e7;}
+.side-menu #dropdown .panel-body .navbar-nav li:last-child {border-bottom: none;}
+.side-menu #dropdown .panel-body .panel > a {margin-left: -20px; padding-left: 35px;}
+.side-menu #dropdown .panel-body .panel-body {margin-left: -15px;}
+.side-menu #dropdown .panel-body .panel-body li {padding-left: 30px;}
+.side-menu #dropdown .panel-body .panel-body li:last-child {border-bottom: 1px solid #e7e7e7;}
+.side-menu #search-trigger {background-color: #f3f3f3;border: 0;border-radius: 0;position: absolute;top: 0;right: 0;padding: 15px 18px;
+}
+.side-menu .brand-name-wrapper {min-height: 50px;}
+.side-menu .brand-name-wrapper .navbar-brand {  display: block;}
+
+/* Main body section */
+.side-body { margin-left: 310px;}
+
+.menu-dropdown-ul{width: 100%;}
+.side-menu nav{margin-bottom: 0px;}
+.label-style { font-weight: bold;}
+.bg-gray { background-color: #ccc;}
+.region-title-extra > .block{display: inline-block;}
+
+/* ------------- Select box style ------------------ */
+.select-style {border: 1px solid #ccc;/* width: 120px; */ border-radius: 3px; overflow: hidden;background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;}
+.select-style select { padding: 5px 8px;/* width: 130%; */border: none;box-shadow: none;background: transparent;background-image: none;
+    -webkit-appearance: none;}
+.select-style select:focus {outline: none;}
+
+/* ------------------ Holding tanks ------------------------ */
+.holding-tank-profiles .person{min-height: 262px;}
+.holding-tank-profiles li{text-align: center;cursor: pointer; transition: box-shadow .3s;padding: 2px;}
+.holding-tank-profiles li:hover{box-shadow: 0 5px 15px rgba(0,0,0,0.3);transition: opacity 0.9s ease-in-out;}
+.holding-tank-profiles .person > img{background-color: #ccc; border: 5px solid #ccc;border-radius: 50%;/* height: 80px; */overflow: hidden;}
+.holding-tank-profiles .name{padding: 3px;border: 3px solid #ccc;margin: 11px 25%;}
+
+/* ---------------- Progress bar ------------------------- */
+.progress {display: block;text-align: center;height: 3px;background: red;transition: width .3s;}
+.progress.hide {opacity: 0;transition: opacity 1.3s;}
+.table-responsive table thead{background: #e5e5e5;}
+.my-table-center table thead tr th {text-align: center;}
+.my-table-center th {text-align: center;}
+.my-table-center tr {text-align: center;}
+
+/* ---------------- Progress bar ------------------------- */
+
+/*  ------------------ Tree user details tootip ------------------------------------ */
+
+.wrap_content{font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;}
+.images_wrapper img {margin: -4px 0 0;}
+.wrap_content{text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);border-radius:0;background:#7266ba;}
+.binary-node-single-item{box-shadow:0 0 5px #3d3d3d;border: 5px solid #ddd;}
+.parent-wrapper.new_wrapper .images_wrapper {margin-bottom: 5px;}
+.parent-wrapper.new_wrapper .images_wrapper img {height: auto;margin: -14px 0 0 1px;width: 88%;}
+.parent-wrapper.new_wrapper .node-child-root .images_wrapper img {height: auto;margin: -14px 0 0 0;width: 88%;}
+.pop-up-content {border: 1px solid rgba(0, 0, 0, 0.1);  border-radius: 2px;  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);background: #fff;}
+.pop-up-content h2{font-size:17px;padding:10px 0;border-bottom:solid 1px #ccc;}
+.tooltip_profile_detaile dl dt, .tooltip_profile_detaile dl dd{font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;}
+.profile_tooltip_pick {display: block;text-align: center;vertical-align: top;height:30px;line-height:30px;border-bottom:solid 1px #ccc;padding-bottom:40px;}
+.pop-up-content::after{top: 65px;}
+.image_tooltip{margin:0 auto;line-height: 30px;box-shadow:none;width:30px;height:30px;display: inline-block;}
+.profile_tooltip_pick h2{display: inline-block;padding: 0;vertical-align: middle;border:none;}
+.tooltip_profile_detaile {display: block;padding-left: 0;text-align: center;vertical-align: top;}
+
+
+.genology-view {display: inline-block;padding-left: 10px;}
+.tooltip_profile_detaile{border-bottom:solid 1px #ccc;padding-bottom:5px;}
+.pop-up-content .rank_area{text-align: center;}
+.pop-up-content .rank_area .created-dl {display: inline-block;padding:0;text-align: right;line-height:normal;margin-bottom:0;line-height:0;}
+.pop-up-content .rank_area .created-dl dt{display: inline-block;vertical-align:middle;}
+.pop-up-content .rank_area .created-dl dd{display: inline-block;vertical-align:middle;}
+.stright-line .node-item-root.main-member::after{height: 61%;}
+.stright-line .node-item-root::after{height:90%;}
+.stright-line .binary-node-single-item{background:#F0F3F4;position: relative;}
+.stright-line .count-members:last-child:after{height:50px;content:'';background: #fff;width:4px;display:block;margin:-2px auto 0;}
+.stright-line .binary-level-width-50,.stright-line .binary-level-width-25,.stright-line .binary-level-width-12,.stright-line .binary-level-width-6{width:150px;display: inline-block;float: none;margin: 0 -5px;}
+.stright-line .binar-hr-line-left,.stright-line .binar-hr-line-right{width:100%;}
+.stright-line .binar-hr-line-left::after,.stright-line .binar-hr-line-right::after{left:50%;}
+.stright-line .binary-genealogy-level-0{width:100%;overflow-x: scroll;}
+.binary-node-single-item-a .images_wrapper{width:80px;height:80px;border-radius:50%;display:block;margin:auto;line-height:80px;text-align:center}
+.binary-node-single-item-a img{border-radius:50%;}
+.hr_class.binar-hr-line-right.line_logic:before {background: #000 none repeat scroll 0 0;content: ""; display: block; height: 212px; left: 0; position: absolute; top: -212px; width: 2px;}
+.binar-hr-line-left.line_logic:before {background: #000 none repeat scroll 0 0; content: ""; display: block; height: 215px; left: 100%; position: absolute; top: -213px; width: 2px;}
+.mx_pop_content{position: absolute !important;top:-65px !important;}
+.stright-line .line_logic.binar-hr-line-left::after {left: 0 !important;}
+.stright-line .line_logic.binar-hr-line-right::after {right: 0 !important; left : auto;}
+.new_wrapper{padding: 0;}
+.pop-up-content.right_tooltip{right:90px !important;}
+.profile-rounded-image-small {border-radius: 50px 50px 50px 50px;}
+.node-child-root:after{bottom: auto;content: none;}
+.no-bg {background: none;}
+.left_no_hr,.right_no_hr{width:50% !important;}
+.right_no_hr{float: left;}
+.left_no_hr:after{left:auto !important;}
+.right_no_hr:after{left:100% !important;}
+.no-bg {background: none;}
+.no-bdr { border:5px solid #F0F3F4;box-shadow: none;}
+.scroll_class{overflow: hidden;}
+.line_logic{overflow: visible;}
+.last_class:after{background: none;}
+.user-level {background-color: rgba(0, 0, 0, 0.5);border-radius: 50% 50% 50% 50%;color: #FFFFFF;display: block;height: 70px;left: 3px;position: absolute;text-align: center;top: 3px;width: 70px;}
+.images_wrapper:hover .user-level {display:none;}
+.pop-up-content{ padding: 8px !important;}
+.no-bg:hover {background: none !important;}
+/*  ------------------ Tree user details tootip ------------------------------------ */
+
+/*  ------------------ e-wallet summary Over view ----------------------------------- */
+.overview ul.overview-inner{padding: 0px;}
+.overview ul.overview-inner li{list-style: none;padding: 7px 10px;border-bottom: 1px solid #EEE;}
+.overview ul.overview-inner li h4{float: left;width: 70%;color: #323a45; font-size: 13px;margin: 0;}
+.overview ul.overview-inner li .overview-btn{float: right;width: 30%;text-align: right;}
+.overview-bg-icon {border-radius: 3px;display: inline-block;font-size: 12px;height: 17px;line-height: 17px;margin-right: 10px;text-align: center;width: 17px;}
+
+.sidebar-overview ul.overview-inner li h4{width: 100%;}
+.sidebar-overview ul.overview-inner li .overview-btn{width: 100%;padding: 0 0 0 27px;text-align: left;float: left;}
+
+/*  ------------------ e-wallet summary Over view ----------------------------------- */
+
+#afl-widgets-afl-dashboard-level-user-counts .afl-user-count-panel{border: 1px solid #23b7e5;} 
+.wp-list-table.affiliates tfoot{display:none;}
+ #progress {width: 100%;border: 1px solid #aaa;height: 20px;/* border-radius: 20px; */padding: 1px;}
+#progress .bar {background-color: #ccc;height: 16px;border-radius: 20px;}
+.wp-list-table.epin-affiliates tfoot{display:none;}
+.bigger-lable{font-size: 100%;}
+  
+
+.genealogy-hierarchy .person .bxslider li > img {height: 80px;border: 5px solid #ccc;border-radius: 50%;overflow: hidden;background-color: #ccc; 
+  margin: 0 22%;
+}
+.genealogy-hierarchy .person .bx-wrapper .bx-controls-direction .bx-next{right: 0px;}
+.genealogy-hierarchy .person .bx-wrapper .bx-controls-direction .bx-prev{left: 0px;}
+
+
+.form-item.clearfix.form-type-checkbox .i-checks {display: block;}
+
+  /* small screen */
+@media (max-width: 768px) {
+  .side-menu {position: relative;width: 100%;height: 0;border-right: 0; border-bottom: 1px solid #e7e7e7;}
+  .side-menu .brand-name-wrapper .navbar-brand {display: inline-block;}
+ 
+  /* Add .absolute-wrapper.slide-in for scrollable menu -> see top comment */
+  .side-menu-container > .navbar-nav.slide-in {-moz-animation: slidein 300ms forwards;-o-animation: slidein 300ms forwards;-webkit-animation: slidein 300ms forwards;animation: slidein 300ms forwards;-webkit-transform-style: preserve-3d;transform-style: preserve-3d;}
+  .side-menu-container > .navbar-nav {/* Add position:absolute for scrollable menu -> see top comment */position: fixed;left: -300px;
+    width: 300px;top: 43px;height: 100%;border-right: 1px solid #e7e7e7;background-color: #f8f8f8;-moz-animation: slideout 300ms forwards;-o-animation: slideout 300ms forwards;-webkit-animation: slideout 300ms forwards;animation: slideout 300ms forwards;
+    -webkit-transform-style: preserve-3d;transform-style: preserve-3d;}
+
+  /* Hamburger */
+  .navbar-toggle {border: 0;float: left;padding: 18px;margin: 0;border-radius: 0;background-color: #f3f3f3;}
+
+  /* Dropdown tweek */
+  #dropdown .panel-body .navbar-nav {margin: 0;}
+}

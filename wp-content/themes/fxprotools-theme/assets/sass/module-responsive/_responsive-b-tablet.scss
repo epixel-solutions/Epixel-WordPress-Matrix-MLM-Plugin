@@ -1,0 +1,244 @@
+// ----------
+// SM - Small
+// ----------
+// XS to SM
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	// ------
+	// Global
+	// ------
+	body {
+		font-size: 13px;
+	}
+	h1 { font-size: 30px; }
+	h2 { font-size: 26px; }
+	h3 { font-size: 22px; }
+
+	// ----------
+	// Navigation
+	// ----------
+	// Landing/Capture Page Navigation
+	.fx-landing .section-nav .fx-top-nav {
+		&.one {
+			.fx-nav {
+				&.w-border li {
+					margin-top: 0;
+					font-size: 12px;
+				}
+				&.w-flag li {
+					font-size: 12px;
+					a.btn-flag {
+						padding: 5px 0 5px 0;
+					}
+				}
+			}
+		}
+	}
+	// Main Navigation
+	.fx-navbar-main {
+		.fx-navbar-header .navbar-brand img {
+			margin-top: 20px;
+			width: 195px;
+			max-width: inherit;
+		}
+		.left ul {
+			margin-left: 0;
+		}
+		.fx-nav-options li {
+			margin-right: 0;
+			a {
+				img {
+					height: 28px;
+					margin: 0 auto;
+				}
+				span {
+					font-size: 12px;
+				}
+			}
+			&.account {
+				padding-top: 25px;
+				a {
+					padding: 20px 15px;
+					font-size: 12px;
+				}
+			}
+			a .icon-inbox {
+				font-size: 38px;
+				display: block;
+				margin: -5px 0;
+			}
+		}
+	}
+
+	// ------
+	// Common
+	// ------
+	// Package Item
+	.fx-package-item {
+		margin-bottom: 40px;
+	}
+	// Red Banner Icons
+	.fx-red-banner-icons {
+		padding: 30px 0 25px 0;
+		.item {
+			text-align: center;
+			.image {
+				position: relative;
+				height: 65px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			img {
+				float: none;
+				margin: 0 auto 10px auto;
+			}
+		}
+	}
+
+	// ------
+	// Custom
+	// ------
+	// Landing Page
+	.fx-landing {
+		.section-two {
+			padding: 30px 0 50px;
+			.video {
+				height: 350px;
+			}
+			.row-item-stats {
+				margin-top: 70px;
+			}
+			.item-info {
+				margin-bottom: 60px;
+				&.xs-item-info {
+					margin-bottom: 0;
+				}
+			}
+		}
+		.section-four {
+			.list-features {
+				margin: 40px 0 0 50px;
+			}
+			.item-stats {
+				margin-bottom: 25px;
+			}
+		}
+		.section-nine {
+			padding: 0 0 30px 0;
+			.faq-item {
+				height: auto;
+				&.no-border {
+					border-bottom: 2px solid #DDD;
+				}
+			}
+		}
+		// Signals
+		&.signals {
+			.section-four {
+				padding: 50px 0 0 0;
+			}
+		}
+	}
+	// Capture Page
+	.fx-capture-page {
+		// Funnel 1
+		&.f1 {
+			.section-one {
+				overflow: hidden;
+				.container {
+					height: auto;
+					padding: 15px 0 0;
+					&:before {
+						display: none;
+					}
+				}
+				.content-wrapper .content {
+					padding: 25px;
+				}
+			}
+			.section-two {
+				padding: 50px 0 30px 0;
+				.item-info {
+					height: auto;
+					margin-bottom: 20px;
+					.image {
+						position: relative;
+						height: auto;
+						display:flex;
+						justify-content:center;
+						align-items:center;
+						img {
+							width: 50px;
+						}
+					}
+					span {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+	// Dashboard
+	.page-dashboard {
+		.fx-board.checklist {
+			margin-top: 15px;
+		}
+	}
+	// My account
+	.fx-tabs-vertical.marketing-contacts .list-info li span {
+		font-size: 12px;
+	}
+
+	// Checkout - Woocommerce
+	.woocommerce-checkout .fx-wrapper {
+		padding-top: 15px;
+	}
+	.woocommerce-checkout .checkout-holder .col2-set .col-1,
+	.woocommerce-checkout .checkout-holder .col2-set .col-2 {
+		width: 100%;
+		padding: 0;
+	}
+	.woocommerce-checkout .checkout-holder .checkout-sidebar img {
+		margin: 0 auto;
+		display: block;
+	}
+	.woocommerce-checkout .checkout-holder .panel .col-form-label {
+		padding-left: 0;
+	}
+	.woocommerce-billing-fields .form-group.row {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+}
+
+// ---
+// 769
+// ---
+@media (min-width : 769px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+
+// ----
+// IPAD
+// ----
+// Portrait
+@media only screen 
+	and (min-device-width : 768px)
+	and (max-device-width : 1024px)
+	and (orientation : portrait)
+	and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+// Landscape
+@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px) 
+	and (orientation : landscape)
+	and (-webkit-min-device-pixel-ratio: 1) {
+
+}

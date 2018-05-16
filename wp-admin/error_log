@@ -1,0 +1,7 @@
+[04-Jul-2017 06:20:05 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[04-Jul-2017 06:22:36 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 3072 bytes) in /home/fxprotools/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 295
+[04-Jul-2017 06:23:13 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/fxprotools/public_html/wp-admin/includes/media.php on line 776
+[04-Jul-2017 06:23:41 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 4104 bytes) in /home/fxprotools/public_html/wp-admin/includes/class-wp-filesystem-base.php on line 409
+[04-Jul-2017 06:23:56 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 49152 bytes) in /home/fxprotools/public_html/wp-admin/custom-background.php on line 356
+[04-Jul-2017 06:24:05 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 49152 bytes) in /home/fxprotools/public_html/wp-admin/custom-background.php on line 356
+[04-Jul-2017 06:29:30 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 49152 bytes) in /home/fxprotools/public_html/wp-admin/custom-background.php on line 356
