@@ -8,7 +8,7 @@ Please visit our website more details.
 
 https://epixelmlmsoftware.com
 
-Here is a sample screenshot of at-a-glance dashboard (The original color scheme is different). Please contact our sales team for a guided demo.
+Here is a sample screenshot of at-a-glance dashboard (The original color scheme is different). Please contact us for a guided demo.
 
 
 ![my cryptobit](https://user-images.githubusercontent.com/39325046/40112023-4e09c898-5922-11e8-8d58-b629efe4d26e.png)
