@@ -6,4 +6,4 @@ Please contact sales@epixelsolutions.com for more support on setting up of stabl
 
 Please visit our webiste more details. 
 
-http://epixelmlmsoftware.com
+https://epixelmlmsoftware.com
